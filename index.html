@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICDL COURSE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Font + AOS -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- ========================== HEADER START ============================ -->
+    <header class="header">
+        <!-- زر القائمة الجانبية -->
+        <div class="hamburger" onclick="toggleSidebar()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="logo">
+            <h1>ICDL COURSE</h1>
+        </div>
+
+
+        <!-- قائمة التنقل الكبيرة -->
+        <nav class="menu-big">
+            <ul>
+                <li><a href="#icdl">تعريف الدورة</a></li>
+                <li><a href="#icdl-content">المحتوى</a></li>
+                <li><a href="#trainer">المدرب</a></li>
+                <li><a href="#registration">التسجيل</a></li>
+            </ul>
+        </nav>
+
+        <div class="trainer-logo">
+            <h1>ADNAN</h1>
+        </div>
+    </header>
+    <!-- ========================== HEADER END ============================ -->
+
+    <!-- القائمة الجانبية -->
+    <!-- لا حاجة لكتابة onclick داخل الوسوم -->
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#icdl" data-target="#icdl">تعريف الدورة</a></li>
+            <li><a href="#icdl-content" data-target="#icdl-content">المحتوى</a></li>
+            <li><a href="#trainer" data-target="#trainer">المدرب</a></li>
+            <li><a href="#registration" data-target="#registration">التسجيل</a></li>
+        </ul>
+    </div>
+    <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+
+    <!-- ========================== خلفية القائمة الجانبية ============================== -->
+    <!-- ========================== SLIDER ============================ -->
+    <div class="container"></div>
+    <!-- ========================== SLIDER END ============================ -->
+
+    <!-- ========================== 3D ICONS START ============================ -->
+    <div class="icdl-container">
+        <div class="icdl-3d">
+            <div class="icon-face icon1"><i class="fas fa-file-word"></i></div>
+            <div class="icon-face icon2"><i class="fas fa-file-excel"></i></div>
+            <div class="icon-face icon3"><i class="fas fa-file-powerpoint"></i></div>
+            <div class="icon-face icon4"><i class="fas fa-desktop"></i></div>
+            <div class="icon-face icon5"><i class="fas fa-globe"></i></div>
+            <div class="icon-face icon6"><i class="fas fa-keyboard"></i></div>
+        </div></div>
+
+    <!-- ========================== 3D ICONS END ============================ -->
+
+    <!-- ========================== WHAT IS ICDL ============================================================================================ -->
+    <div class="icdl" id="icdl">
+        <h1>ما هي الرخصة الدولية لقيادة الحاسب الآلي ICDL؟</h1>
+        <P class="txt-2 w-70 txt-center">بوابتك لإتقان المهارات الرقمية الأساسية التي يحتاجها سوق العمل اليوم.</P>
+        <P class="txt-2 w-70 txt-center">تعلم من خلالها كيفية استخدام الحاسوب.</P>
+        <P class="txt-2 w-70 txt-center">سواء كنت طالبًا، موظفًا، أو تبحث عن فرص عمل أفضل، فإن شهادة ICDL تمنحك الثقة
+            والكفاءة لتبرز في أي بيئة عمل
+            رقمية.
+        </P>
+    </div>
+    <!-- ========================== SLIDER END ============================ -->
+    <div class="mode-cards-container">
+        <div class="mode-card">
+            <img src="images/majd.jpg" alt="الشرح الحضوري">
+            <h2>إعطاء الحضوري</h2>
+            <p>انضم إلينا في القاعات الدراسية لتجربة تعليمية تفاعلية ومباشرة مع المدرب.</p>
+        </div>
+        <div class="mode-card">
+            <img src="images/slide1.jpg" alt="الشرح الأونلاين">
+            <h2>إعطاء الأونلاين</h2>
+            <p>تابع الدروس من أي مكان عبر الإنترنت مع مرونة تامة وتسجيلات متاحة دائمًا.</p>
+        </div>
+    </div>
+
+    <!-- ========================== CARDS CONTAINER CONTENT ============================ ====================================================-->
+    <div class="icdl-content" id="icdl-content">
+        <!-- ========================== CONTENT CARD START============================ -->
+        <div class="content-card">
+            <img src="images/11111.jpg" alt="image-content">
+            <h1>اساسيات الحاسب الآلي</h1>
+            <p class="txt-center">مادة تُعرّف الطلاب بمكونات الحاسب، أنظمة التشغيل، البرمجيات، واستخدامات الحاسب في الحياة اليومية.</p>
+        </div>
+        <!-- ========================== CONTENT CARD END============================ -->
+        <!-- ========================== CONTENT CARD STRAT============================ -->
+        <div class="content-card">
+            <img src="images/word.jpeg" alt="image-content">
+            <h1>Microsoft Word</h1>
+            <p class="txt-center">مادة تعلّم تنسيق النصوص، إدراج الجداول والصور، وإنشاء مستندات احترافية باستخدام برنامج Microsoft Word.</p>
+        </div>
+        <!-- ========================== CONTENT CARD END============================ -->
+        <!-- ========================== CONTENT CARD START============================ -->
+        <div class="content-card">
+            <img src="images/exel.jpeg" alt="image-content">
+            <h1>Microsoft Excel</h1>
+            <p class="txt-center">مادة تشرح تنظيم البيانات، استخدام المعادلات، إنشاء الجداول والرسوم البيانية باستخدام برنامج Microsoft Excel.</p>
+        </div>
+        <!-- ========================== CONTENT CARD END============================ -->
+        <!-- ========================== CONTENT CARD  START============================ -->
+        <div class="content-card">
+            <img src="images/access.jpeg" alt="image-content">
+            <h1>Microsoft Access</h1>
+            <p class="txt-center">مادة تشرح إنشاء قواعد البيانات، الجداول، النماذج، والاستعلامات باستخدام برنامج Microsoft Access باحترافية.</p>
+        </div>
+        <!-- ========================== CONTENT CARD END============================ -->
+        <div class="content-card">
+            <img src="images/powerpoint.jpeg" alt="image-content">
+            <h1>Microsoft PowerPoint</h1>
+            <p class="txt-center">PowerPoint برنامج لإنشاء عروض تقديمية تفاعلية وجذابة باستخدام شرائح نصوص وصور ورسوم متحركة.</p>
+        </div>
+        <!-- ========================== CONTENT CARD END ============================ -->
+        <!-- ========================== CONTENT CARD START============================ -->
+        <div class="content-card">
+            <img src="images/enternet.jpeg" alt="image-content">
+            <h1>اساسيات الانترنت</h1>
+            <p class="txt-center">مادة تشرح استخدام الإنترنت، تصفح المواقع، البريد الإلكتروني، ومحركات البحث بأمان وكفاءة.</p>
+        </div>
+        <!-- ========================== CONTENT CARD END ============================ -->
+        <!-- ========================== CONTENT CARD START ============================ -->
+        <div class="content-card">
+            <img src="images/security.jpeg" alt="image-content">
+            <h1>أمن تكنولوجيا المعلومات</h1>
+            <p class="txt-center">مادة أمن تكنولوجيا المعلومات تركز على حماية البيانات والشبكات من الهجمات والاختراقات الإلكترونية.</p>
+        </div>
+        <!-- ========================== CONTENT CARD END ============================ -->
+        <!-- ========================== CONTENT CARD START ============================ -->
+    </div>
+    <!-- ========================== CARDS CONTAINER CONTENT END =============================================================================== -->
+    <!-- ============================  المدرب =======================================  -->
+    <div class="trainer" id="trainer">
+        <div class="trainer-image">
+            <img src="images/IMG_20250216_115146_084.jpg" alt="">
+        </div>
+        <div class="trainer-content">
+            <h1>ADNAN MOHAMMED AL-OUJEEL</h1>
+            <h1>COMPUTER ENGINEERING - UNIVERSITY OF ALLEPPO</h1>
+            <h1>INFORMAION ENGINEERING - SVU UNIVERSITY</h1>
+            <h1>FRONT-END DEVELOPER</h1>
+            <p>أنا عدنان العجيل، مدرب محترف معتمد في مهارات الحاسوب الأساسية (ICDL)، أقدّم دورات تدريبية متقدمة ومبسّطة
+                بأسلوب عملي
+                وموجه لجميع الفئات، من المبتدئين حتى المحترفين.
+                بجانب ذلك، أعمل كـ Front-End Developer متخصص في تصميم وتطوير واجهات المستخدم الحديثة باستخدام HTML, CSS,
+                JavaScript،
+                وأمتلك خبرة في بناء مواقع تفاعلية ومتجاوبة بأعلى المعايير التقنية والتصميمية.
+
+                أسعى دائمًا لنقل المعرفة بأسلوب عملي وملهم، وأؤمن أن التقنية وسيلة لتمكين الأفراد وتحقيق طموحاتهم.
+            </p>
+        </div>
+    </div>
+    <!-- =============================== التسجيل على الكورس ============================= -->
+    <div class="trainer-contact fade-in">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/adnanaloujeel" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://t.me/ad_com_eng" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/adnan_aloujeel?igsh=MTR4cmFwM29pcjJvbg==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:adnan.oujeel1@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/Adnan-12oujeel"><i class="fas fa-github"></i></a>
+        </div>
+
+        <a href="https://ee.kobotoolbox.org/single/QyCzSz81" target="_blank" class="register-btn">
+            <i class="fas fa-edit"></i> سجّل الآن في الدورة
+        </a>
+    </div>
+
+
+    <!--  -->
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</body>
+
+</html>
