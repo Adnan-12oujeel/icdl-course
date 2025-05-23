@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://adnan-12oujeel.github.io/icdl-course/sitemap.xml
