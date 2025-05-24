@@ -45,9 +45,4 @@ document.getElementById("overlay").addEventListener("click", closeSidebar);
 
 
 // الايقونات ثلاثية الابعاد =========================================================
-AOS.init({
-  duration: 1000,
-  once: true,
-});
-
 AOS.init({ duration: 1000, once: true });
